@@ -35,13 +35,10 @@ function initForm(){
 		return;
 	}
 
-	var table = input;
 	// Find table parent
-	while(table && table.tagName != "TABLE"){
-		table = table.parentNode;
-	}
+	var table = input.closest("table");
 
-	// Fail to found table
+	// Fail to found a table
 	if(!table){
 		console.error("Error: TABLE not found for the given input:", input);
 		return;
