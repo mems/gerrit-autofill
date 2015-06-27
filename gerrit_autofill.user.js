@@ -3,7 +3,7 @@
 // @namespace   gerritloginautofill
 // @description Enable login autofill on Gerrit.
 // @include     /gerrit/
-// @version     1
+// @version     1.0.1
 // @grant	    none
 // ==/UserScript==
 
